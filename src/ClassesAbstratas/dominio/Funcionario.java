@@ -16,4 +16,12 @@ public abstract class Funcionario extends Pessoa {
         System.out.println("Imprimindo...");
 
     }
+
+    @Override
+    public String toString() {
+        return "Funcionario{" +
+                "nome='" + nome + '\'' +
+                ", salario=" + salario +
+                '}';
+    }
 }
