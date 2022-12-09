@@ -12,5 +12,9 @@ public class DataLoaderTest01 {
 
         databseLoader.remove();
         fileLoader.remove();
+
+        databseLoader.checkPermission();
+        fileLoader.checkPermission();
+
     }
 }
