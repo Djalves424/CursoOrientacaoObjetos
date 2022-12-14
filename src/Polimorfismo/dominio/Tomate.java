@@ -5,7 +5,9 @@ public class Tomate extends Produto{
     private String dataValidade;
     public Tomate(String nome, double valor) {
         super(nome, valor);
+
     }
+
     @Override
     public double calcularImposto() {
         System.out.println("Calculando imposto do tomate");
