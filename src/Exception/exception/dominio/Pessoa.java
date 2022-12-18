@@ -1,8 +1,5 @@
 package Exception.exception.dominio;
 
-import Exception.exception.LoginInvalidoException;
-
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
 public class Pessoa {

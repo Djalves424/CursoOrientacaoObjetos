@@ -1,4 +1,4 @@
-package Exception.exception;
+package Exception.exception.dominio;
 
 public class LoginInvalidoException extends Exception{
     public LoginInvalidoException() {

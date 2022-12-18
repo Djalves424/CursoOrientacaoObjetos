@@ -1,6 +1,6 @@
 package Exception.exception.test;
 
-import Exception.exception.LoginInvalidoException;
+import Exception.exception.dominio.LoginInvalidoException;
 
 import java.util.Scanner;
 
