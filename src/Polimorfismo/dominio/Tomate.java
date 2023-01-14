@@ -8,6 +8,10 @@ public class Tomate extends Produto{
 
     }
 
+    public Tomate(java.lang.String tomate_asiático, int valor) {
+        
+    }
+
     @Override
     public double calcularImposto() {
         System.out.println("Calculando imposto do tomate");
@@ -20,5 +24,8 @@ public class Tomate extends Produto{
 
     public void setDataValidade(String dataValidade) {
         this.dataValidade = dataValidade;
+    }
+
+    public void setDataValidade(java.lang.String s) {
     }
 }

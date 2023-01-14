@@ -6,6 +6,10 @@ public class Computador extends Produto{
         super(nome, valor);
     }
 
+    public Computador(java.lang.String nuc10i7, int valor) {
+        super();
+    }
+
     @Override
     public double calcularImposto() {
         System.out.println("Calculando imposto do computador");
